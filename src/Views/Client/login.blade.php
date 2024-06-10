@@ -19,13 +19,13 @@
         <h1 class="mt-5 mb-3 text-center">Login</h1>
 
         @if (!empty($_SESSION['error']))
-        <div class="alert alert-warning mt-3 mb-3">
-            {{ $_SESSION['error'] }}
-        </div>
+                <div class="alert alert-warning mt-3 mb-3">
+                    {{ $_SESSION['error'] }}
+                </div>
 
-        @php
-        unset($_SESSION['error']);
-        @endphp
+                @php
+                    unset($_SESSION['error']);
+                @endphp
         @endif
 
         <div class="row">

@@ -24,10 +24,6 @@ Dashboard
 <div class="row ">
     <div class="col-lg-12">
 
-        {!! '<b>Ahihi</b>' !!}
-        <br>
-        {{ '<b>Ahihi</b>' }}
-
         <div id="myChart" style="width:100%; max-width:600px; height:500px;">
 
         </div>

@@ -16,12 +16,9 @@ class HomeController extends Controller
 
     public function index()
     {
-        $name = 'Hoang Anh - Quoc';
-
         $products = $this->product->all();
 
         $this->renderViewClient('home', [
-            'name' => $name,
             'products' => $products
         ]);
     }

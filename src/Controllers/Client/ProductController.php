@@ -27,4 +27,13 @@ class ProductController extends Controller
             'product' => $product
         ]);
     }
+
+    public function productShow($id)
+    {
+        $product = $this->product->findByIDShow($id);
+
+        $this->renderViewClient('product-show', [
+            'product' => $product
+        ]);
+    }
 }
