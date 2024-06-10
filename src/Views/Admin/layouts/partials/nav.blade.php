@@ -14,9 +14,9 @@
                 <span>Dashboard</span>
             </a>
             <ul>
-                <li><a class="active" href="index-2.html">Sales</a></li>
-                <li><a href="index_2.html">Default</a></li>
-                <li><a href="index_3.html">Dark Menu</a></li>
+                <li><a href="{{ asset('admin/categories')}}">Danh mục</a></li>
+                <li><a class="active" href="{{ asset('admin/products')}}">Danh sách sản phẩm</a></li>
+                <li><a href="{{ asset('admin/users')}}">Danh sách user</a></li>
             </ul>
         </li>
 
